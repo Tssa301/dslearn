@@ -22,4 +22,7 @@ INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) 
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Forum', 'Q&A', 2, 'https://brandoncarson.com/wp-content/uploads/2019/05/html-course.jpg', 2, 1);
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Lives', 'Live classes for students', 3, 'https://brandoncarson.com/wp-content/uploads/2019/05/html-course.jpg', 0, 1);
 
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Chapter 1', 'Starting chapter 1', 1, 'https://brandoncarson.com/wp-content/uploads/2019/05/html-course.jpg', 1, null);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Chapter 2', 'Continuing chapter 1', 2, 'https://brandoncarson.com/wp-content/uploads/2019/05/html-course.jpg', 1, 1);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Chapter 3', 'Finishing chapter 1', 3, 'https://brandoncarson.com/wp-content/uploads/2019/05/html-course.jpg', 1, 2);
 
